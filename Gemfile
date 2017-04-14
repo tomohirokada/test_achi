@@ -46,3 +46,5 @@ group :development, :test do
   gem 'jquery-turbolinks'
 end
 
+  gem 'rails_12factor', group: :production
+
