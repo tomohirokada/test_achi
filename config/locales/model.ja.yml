@@ -9,7 +9,7 @@ ja:
         title: "タイトル"
         content: "内容"
       contact:
-        name: "名前"
+        title: "名前"
         email: "メールアドレス"
         content: "内容"
       user:

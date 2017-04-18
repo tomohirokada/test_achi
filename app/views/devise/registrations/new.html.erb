@@ -15,13 +15,15 @@
         <%= f.password_field :password, autocomplete: "off", class: "form-control", placeholder: "パスワード" %>
       </div>
 
-      <div class="field">
-        <%= f.text_field :name, class: "form-control", placeholder: "名前" %>
-      </div>
 
       <div class="field">
         <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control", placeholder: "パスワード（確認）" %>
       </div>
+      
+      <div class="field">
+        <%= f.text_field :name, class: "form-control", placeholder: "名前" %>
+      </div>
+
 
       <div class="actions">
         <%= f.submit "サインアップ", class: "btn btn-primary btn-block" %>
