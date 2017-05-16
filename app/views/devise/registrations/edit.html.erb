@@ -39,14 +39,14 @@
       <br />
 
   <div class="field">
-    <i><%= f.label :現在のパスワード %> </i><br />
+    <%= f.label :現在のパスワード %><br />
     <%= f.password_field :current_password, autocomplete: "off", class: 'form-control'%>
   </div>
 
   <div class="field">
     <%=profile_img(@user)if profile_img(@user)%>
     <%=f.file_field :avatar %>
-    <%=f.hidden_field :avatar_cashe%>
+    <%=f.hidden_field :avatar_cache%>
   </div>
 
   <div class="actions">
