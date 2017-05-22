@@ -18,7 +18,7 @@ class CommentsController < ApplicationController
   end
 
   def update
-  @comment.update(comment_params)
+  @comment.update(comments_params)
   redirect_to blog_path(@blog)
   end
 
