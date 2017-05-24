@@ -43,6 +43,9 @@ group :development, :test do
   gem 'spring'
   gem 'pry-rails'
   gem 'better_errors'
+
+  gem 'railroady' #ER図:DB見える化
+
 end
 
   gem 'twitter-bootstrap-rails'
