@@ -46,6 +46,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
     gem 'railroady' #ER図:DB見える化
 
+    gem 'capistrano', '3.6.0'
+    gem 'capistrano-bundler'
+    gem 'capistrano-rails'
+    gem 'capistrano-rbenv'
+    gem 'capistrano3-unicorn'
+
   end
 
   gem 'twitter-bootstrap-rails'
@@ -63,9 +69,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   gem 'rmagick'
   gem 'pusher'
   gem 'fog'
-
+  gem 'dotenv-rails'
+  gem 'unicorn'
 
   group :development do
     gem 'letter_opener_web'
-    gem  'dotenv-rails'
   end
