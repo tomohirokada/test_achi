@@ -10,7 +10,7 @@ set :repo_url, 'https://github.com/tomohirokada/test_achi.git'
 set :branch, ENV['BRANCH'] || 'master'
 
 # deploy先のディレクトリ。
-set :deploy_to, '/var/www/test_achi'
+set :deploy_to, '/var/www/achieve'
 
 # シンボリックリンクをはるフォルダ・ファイル
 set :linked_files, %w{.env config/secrets.yml}
