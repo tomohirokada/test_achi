@@ -12,10 +12,10 @@ CarrierWave.configure do |config|
 
   case Rails.env
     when 'production'
-      config.fog_directory = 'testachi-production-1'
-      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/testachi-prduction-1'
+      config.fog_directory = 'achieve-production-okada'
+      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/achieve-production-okada'
     when 'development'
-      config.fog_directory = 'testachi-development-1'
-      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/testachi-development-1'
+      config.fog_directory = 'achieve-development-okada'
+      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/achieve-development-okada'
   end
 end
